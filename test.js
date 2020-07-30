@@ -73,7 +73,7 @@ solution 7.
 <script>
 var li = document.createElement("LI");
 function listElement() {
-  for(i = 0; i< 30; i++){
+  for(i = 1; i <= 30; i++){
     var childNode = document.createTextNode(i); 
     li.appendChild(childNode);
   }
@@ -87,7 +87,7 @@ solution 8.
 <script>
 var li = document.createElement("LI");
 function listElement() {
-  for(i = 0; i< 30; i++){
+  for(i = 1; i <= 30; i++){
     if(1%2 == 0) {
       var childNode = document.createTextNode(i); 
       li.appendChild(childNode);
